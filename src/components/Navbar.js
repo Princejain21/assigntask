@@ -10,6 +10,7 @@ export default function Navbar() {
         <li><Link className='text-white' to='/assigntask/img/3'>Image3</Link></li>
         <li><Link className='text-white' to='/assigntask/img/4'>Image4</Link></li>
         <li><Link className='text-white' to='/assigntask/img/5'>Image5</Link></li>
+        <li><Link className='text-white' to='/assigntask/withpagination'>WithPagination</Link></li>
         </ul>
     </nav>
   )

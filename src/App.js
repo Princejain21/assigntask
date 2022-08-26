@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import {Routes,Route,BrowserRouter} from 'react-router-dom';
 import Card from './components/Card';
-import Paginated from './components/Paginated';
+import Withpagination from './components/Withpagination';
 
 
 export default function App() {
@@ -17,11 +17,10 @@ export default function App() {
 <Route path="/assigntask/img/3" element={<Card img="https://cdn.pixabay.com/photo/2021/05/05/11/02/water-lilies-6230802__340.jpg" />}/>
 <Route path="/assigntask/img/4" element={<Card img="https://cdn.pixabay.com/photo/2022/07/26/12/43/mountains-7345777__340.jpg" />}/>
 <Route path="/assigntask/img/5" element={<Card img="https://cdn.pixabay.com/photo/2022/03/31/15/04/observation-deck-7103210__340.jpg" />}/>
+<Route path="/assigntask/withpagination" element={<Withpagination/>}/>
 
 </Routes>
-<div className='mt-5'>
-<Paginated />
-</div>
+
     </BrowserRouter>
 
 
