@@ -11,7 +11,7 @@ export default function App() {
     <BrowserRouter>
 <Navbar/>
 <Routes>
-<Route path="/assigntask/img/1" element={<Card  img="https://cdn.pixabay.com/photo/2022/08/21/21/24/blackandwhite-7402145__340.jpg"/>}/>
+<Route path="/assigntask" element={<Card  img="https://cdn.pixabay.com/photo/2022/08/21/21/24/blackandwhite-7402145__340.jpg"/>}/>
 
 <Route path="/assigntask/img/2" element={<Card img="https://cdn.pixabay.com/photo/2022/04/13/04/57/woman-7129432__340.jpg" />}/>
 <Route path="/assigntask/img/3" element={<Card img="https://cdn.pixabay.com/photo/2021/05/05/11/02/water-lilies-6230802__340.jpg" />}/>

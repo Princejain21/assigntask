@@ -5,7 +5,7 @@ export default function Paginated() {
   return (
     <nav aria-label="Page navigation example  ">
     <ul class="pagination d-flex justify-content-center" >
-      <li class="page-item"><Link class="page-link" to="/assigntask/img/1">1</Link></li>
+      <li class="page-item"><Link class="page-link" to="/assigntask">1</Link></li>
       <li class="page-item"><Link class="page-link" to="/assigntask/img/2">2</Link></li>
       <li class="page-item"><Link class="page-link" to="/assigntask/img/3">3</Link></li>
       <li class="page-item"><Link class="page-link" to="/assigntask/img/4">4</Link></li>
